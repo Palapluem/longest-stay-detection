@@ -46,28 +46,28 @@ duration_sec: 85.535
 
 ```text
 longest-stay-detection/
-|-- 0_Longest_Stay_Detection_Report.ipynb   # Full runnable Thai walkthrough notebook
-|-- 1_Problem_and_Data/
-|   `-- README.md                           # Problem, input video, stationary definition
-|-- 2_Method_Design/
-|   `-- README.md                           # Algorithm design and movement measurement
-|-- 3_Video_Pipeline/
-|   |-- README.md                           # Pipeline-specific instructions
-|   `-- src/
-|       `-- longest_stay_detection.py       # Main implementation
-|-- 4_Evaluation_and_Results/
-|   `-- README.md                           # Result, assessment, and improvement plan
-|-- results/
-|   |-- annotated_entrance.mp4              # Annotated output video
-|   |-- summary.json                        # Structured final result
-|   `-- tracks.csv                          # Per-track stationary segment table
-|-- entrance.mov                            # Input video
-|-- IDEA.md                                 # Short idea description
-|-- longest-stay-detection-info.txt         # Original coding-test brief
-|-- main.py                                 # CLI entrypoint
-|-- references.md                           # Research and documentation references
-|-- requirements.txt                        # Python dependencies
-`-- README.md                               # This file
+├── 0_Longest_Stay_Detection_Report.ipynb   # Full runnable Thai walkthrough notebook
+├── 1_Problem_and_Data/
+│   └── README.md                           # Problem, input video, stationary definition
+├── 2_Method_Design/
+│   └── README.md                           # Algorithm design and movement measurement
+├── 3_Video_Pipeline/
+│   ├── README.md                           # Pipeline-specific instructions
+│   └── src/
+│       └── longest_stay_detection.py       # Main implementation
+├── 4_Evaluation_and_Results/
+│   └── README.md                           # Result, assessment, and improvement plan
+├── results/
+│   ├── annotated_entrance.mp4              # Annotated output video
+│   ├── summary.json                        # Structured final result
+│   └── tracks.csv                          # Per-track stationary segment table
+├── entrance.mov                            # Input video
+├── IDEA.md                                 # Short idea description
+├── longest-stay-detection-info.txt         # Original coding-test brief
+├── main.py                                 # CLI entrypoint
+├── references.md                           # Research and documentation references
+├── requirements.txt                        # Python dependencies
+└── README.md                               # This file
 ```
 
 ## Submission Notes
