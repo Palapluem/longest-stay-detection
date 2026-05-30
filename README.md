@@ -59,7 +59,6 @@ longest-stay-detection/
 |   `-- README.md                           # Result, assessment, and improvement plan
 |-- results/
 |   |-- annotated_entrance.mp4              # Annotated output video
-|   |-- annotated_entrance_360p.mp4         # Smaller annotated video for easier upload
 |   |-- summary.json                        # Structured final result
 |   `-- tracks.csv                          # Per-track stationary segment table
 |-- entrance.mov                            # Input video
@@ -88,8 +87,7 @@ Recommended files to keep in the submitted repository:
 - `longest-stay-detection-info.txt`
 - `results/summary.json`
 - `results/tracks.csv`
-- `results/annotated_entrance.mp4` or an external Drive/YouTube link to this video
-- `results/annotated_entrance_360p.mp4` if a smaller upload-friendly video is needed
+- `results/annotated_entrance.mp4` through Git LFS, or an external Drive/YouTube link to this video
 
 Local/reference files that should not be part of the final submission:
 
@@ -99,7 +97,7 @@ Local/reference files that should not be part of the final submission:
 - `*.pt` YOLO weight files downloaded at runtime
 - temporary logs
 
-Note: `results/annotated_entrance.mp4` is a large generated artifact. If the Git hosting platform rejects large video files, use `results/annotated_entrance_360p.mp4` for the repository and upload the full-resolution video to Google Drive or YouTube.
+Note: `results/annotated_entrance.mp4` is a large generated artifact and is tracked with Git LFS.
 
 ## Getting Started
 
@@ -269,9 +267,6 @@ Annotated video with:
 - stationary duration
 - winner highlight
 
-### `results/annotated_entrance_360p.mp4`
-
-Smaller copy of the annotated video for easier upload when full-resolution video is too large.
 
 ## Method Rationale
 
