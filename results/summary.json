@@ -1,0 +1,2434 @@
+{
+  "video": "entrance.mov",
+  "metadata": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 29.883,
+    "frame_count": 2556,
+    "duration_sec": 85.535
+  },
+  "method": {
+    "detector": "Ultralytics YOLO person class only (classes=[0])",
+    "tracker": "botsort.yaml",
+    "movement_measure": "EMA-smoothed foot-point displacement normalized by median bbox height, with bbox IoU support and hysteresis.",
+    "stationary_threshold": 0.05,
+    "window_sec": 1.0,
+    "min_stationary_sec": 0.75,
+    "iou_threshold": 0.82
+  },
+  "winner": {
+    "track_id": 161,
+    "source_track_ids": [
+      161
+    ],
+    "longest_stationary_duration": 41.094,
+    "start_time": 33.699,
+    "end_time": 74.793
+  },
+  "tracks": [
+    {
+      "track_id": 1,
+      "source_track_ids": [
+        1,
+        55
+      ],
+      "total_visible_time": 11.545,
+      "first_seen_time": 0.0,
+      "last_seen_time": 11.545,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 2,
+      "source_track_ids": [
+        2
+      ],
+      "total_visible_time": 5.789,
+      "first_seen_time": 0.0,
+      "last_seen_time": 5.789,
+      "stationary_segments": [
+        {
+          "start_time": 2.911,
+          "end_time": 4.049,
+          "duration": 1.138
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 2.911,
+        "end_time": 4.049,
+        "duration": 1.138
+      }
+    },
+    {
+      "track_id": 3,
+      "source_track_ids": [
+        3
+      ],
+      "total_visible_time": 4.384,
+      "first_seen_time": 0.0,
+      "last_seen_time": 4.384,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 6,
+      "source_track_ids": [
+        6
+      ],
+      "total_visible_time": 1.238,
+      "first_seen_time": 0.335,
+      "last_seen_time": 1.573,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 7,
+      "source_track_ids": [
+        7
+      ],
+      "total_visible_time": 9.337,
+      "first_seen_time": 0.602,
+      "last_seen_time": 9.939,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 12,
+      "source_track_ids": [
+        12
+      ],
+      "total_visible_time": 0.636,
+      "first_seen_time": 1.138,
+      "last_seen_time": 1.774,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 18,
+      "source_track_ids": [
+        18
+      ],
+      "total_visible_time": 0.1,
+      "first_seen_time": 2.644,
+      "last_seen_time": 2.744,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 21,
+      "source_track_ids": [
+        21
+      ],
+      "total_visible_time": 0.502,
+      "first_seen_time": 2.744,
+      "last_seen_time": 3.246,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 23,
+      "source_track_ids": [
+        23
+      ],
+      "total_visible_time": 1.238,
+      "first_seen_time": 3.112,
+      "last_seen_time": 4.35,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 28,
+      "source_track_ids": [
+        28
+      ],
+      "total_visible_time": 8.333,
+      "first_seen_time": 4.083,
+      "last_seen_time": 12.415,
+      "stationary_segments": [
+        {
+          "start_time": 9.002,
+          "end_time": 9.805,
+          "duration": 0.803
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 9.002,
+        "end_time": 9.805,
+        "duration": 0.803
+      }
+    },
+    {
+      "track_id": 33,
+      "source_track_ids": [
+        33,
+        47
+      ],
+      "total_visible_time": 8.065,
+      "first_seen_time": 4.518,
+      "last_seen_time": 12.583,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 39,
+      "source_track_ids": [
+        39
+      ],
+      "total_visible_time": 3.648,
+      "first_seen_time": 6.559,
+      "last_seen_time": 10.207,
+      "stationary_segments": [
+        {
+          "start_time": 7.228,
+          "end_time": 8.968,
+          "duration": 1.74
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 7.228,
+        "end_time": 8.968,
+        "duration": 1.74
+      }
+    },
+    {
+      "track_id": 43,
+      "source_track_ids": [
+        43
+      ],
+      "total_visible_time": 0.033,
+      "first_seen_time": 6.592,
+      "last_seen_time": 6.626,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 49,
+      "source_track_ids": [
+        49
+      ],
+      "total_visible_time": 0.469,
+      "first_seen_time": 6.994,
+      "last_seen_time": 7.463,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 51,
+      "source_track_ids": [
+        51
+      ],
+      "total_visible_time": 0.0,
+      "first_seen_time": 7.228,
+      "last_seen_time": 7.228,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 57,
+      "source_track_ids": [
+        57
+      ],
+      "total_visible_time": 9.571,
+      "first_seen_time": 8.734,
+      "last_seen_time": 18.305,
+      "stationary_segments": [
+        {
+          "start_time": 16.565,
+          "end_time": 17.937,
+          "duration": 1.372
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 16.565,
+        "end_time": 17.937,
+        "duration": 1.372
+      }
+    },
+    {
+      "track_id": 59,
+      "source_track_ids": [
+        59
+      ],
+      "total_visible_time": 1.64,
+      "first_seen_time": 9.604,
+      "last_seen_time": 11.244,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 62,
+      "source_track_ids": [
+        62
+      ],
+      "total_visible_time": 1.372,
+      "first_seen_time": 10.173,
+      "last_seen_time": 11.545,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 65,
+      "source_track_ids": [
+        65
+      ],
+      "total_visible_time": 4.685,
+      "first_seen_time": 10.943,
+      "last_seen_time": 15.628,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 70,
+      "source_track_ids": [
+        70
+      ],
+      "total_visible_time": 2.844,
+      "first_seen_time": 11.144,
+      "last_seen_time": 13.988,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 71,
+      "source_track_ids": [
+        71
+      ],
+      "total_visible_time": 0.1,
+      "first_seen_time": 11.144,
+      "last_seen_time": 11.244,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 86,
+      "source_track_ids": [
+        86
+      ],
+      "total_visible_time": 5.187,
+      "first_seen_time": 12.482,
+      "last_seen_time": 17.669,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 87,
+      "source_track_ids": [
+        87,
+        115
+      ],
+      "total_visible_time": 4.25,
+      "first_seen_time": 12.85,
+      "last_seen_time": 17.1,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 92,
+      "source_track_ids": [
+        92
+      ],
+      "total_visible_time": 0.736,
+      "first_seen_time": 13.386,
+      "last_seen_time": 14.122,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 93,
+      "source_track_ids": [
+        93,
+        123
+      ],
+      "total_visible_time": 8.6,
+      "first_seen_time": 13.486,
+      "last_seen_time": 22.087,
+      "stationary_segments": [
+        {
+          "start_time": 16.163,
+          "end_time": 17.435,
+          "duration": 1.272
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 16.163,
+        "end_time": 17.435,
+        "duration": 1.272
+      }
+    },
+    {
+      "track_id": 103,
+      "source_track_ids": [
+        103,
+        109
+      ],
+      "total_visible_time": 2.677,
+      "first_seen_time": 13.888,
+      "last_seen_time": 16.565,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 110,
+      "source_track_ids": [
+        110
+      ],
+      "total_visible_time": 0.77,
+      "first_seen_time": 14.122,
+      "last_seen_time": 14.892,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 117,
+      "source_track_ids": [
+        117
+      ],
+      "total_visible_time": 0.469,
+      "first_seen_time": 14.524,
+      "last_seen_time": 14.992,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 127,
+      "source_track_ids": [
+        127
+      ],
+      "total_visible_time": 0.335,
+      "first_seen_time": 16.063,
+      "last_seen_time": 16.398,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 128,
+      "source_track_ids": [
+        128
+      ],
+      "total_visible_time": 4.986,
+      "first_seen_time": 16.398,
+      "last_seen_time": 21.384,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 131,
+      "source_track_ids": [
+        131
+      ],
+      "total_visible_time": 3.179,
+      "first_seen_time": 16.531,
+      "last_seen_time": 19.711,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 136,
+      "source_track_ids": [
+        136
+      ],
+      "total_visible_time": 1.138,
+      "first_seen_time": 17.669,
+      "last_seen_time": 18.807,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 141,
+      "source_track_ids": [
+        141,
+        153
+      ],
+      "total_visible_time": 0.669,
+      "first_seen_time": 17.937,
+      "last_seen_time": 18.606,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 142,
+      "source_track_ids": [
+        142
+      ],
+      "total_visible_time": 1.238,
+      "first_seen_time": 17.97,
+      "last_seen_time": 19.209,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 144,
+      "source_track_ids": [
+        144
+      ],
+      "total_visible_time": 0.335,
+      "first_seen_time": 18.004,
+      "last_seen_time": 18.338,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 145,
+      "source_track_ids": [
+        145
+      ],
+      "total_visible_time": 0.268,
+      "first_seen_time": 18.037,
+      "last_seen_time": 18.305,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 150,
+      "source_track_ids": [
+        150
+      ],
+      "total_visible_time": 4.652,
+      "first_seen_time": 18.405,
+      "last_seen_time": 23.057,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 157,
+      "source_track_ids": [
+        157
+      ],
+      "total_visible_time": 6.492,
+      "first_seen_time": 18.707,
+      "last_seen_time": 25.199,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 161,
+      "source_track_ids": [
+        161
+      ],
+      "total_visible_time": 57.76,
+      "first_seen_time": 20.212,
+      "last_seen_time": 77.972,
+      "stationary_segments": [
+        {
+          "start_time": 21.551,
+          "end_time": 26.638,
+          "duration": 5.087
+        },
+        {
+          "start_time": 33.699,
+          "end_time": 74.793,
+          "duration": 41.094
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 33.699,
+        "end_time": 74.793,
+        "duration": 41.094
+      }
+    },
+    {
+      "track_id": 165,
+      "source_track_ids": [
+        165
+      ],
+      "total_visible_time": 2.075,
+      "first_seen_time": 20.748,
+      "last_seen_time": 22.823,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 169,
+      "source_track_ids": [
+        169
+      ],
+      "total_visible_time": 0.1,
+      "first_seen_time": 21.183,
+      "last_seen_time": 21.283,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 170,
+      "source_track_ids": [
+        170,
+        172
+      ],
+      "total_visible_time": 0.703,
+      "first_seen_time": 21.25,
+      "last_seen_time": 21.953,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 171,
+      "source_track_ids": [
+        171
+      ],
+      "total_visible_time": 0.033,
+      "first_seen_time": 21.25,
+      "last_seen_time": 21.283,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 174,
+      "source_track_ids": [
+        174
+      ],
+      "total_visible_time": 0.033,
+      "first_seen_time": 21.953,
+      "last_seen_time": 21.986,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 175,
+      "source_track_ids": [
+        175,
+        183,
+        184
+      ],
+      "total_visible_time": 2.844,
+      "first_seen_time": 22.622,
+      "last_seen_time": 25.466,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 186,
+      "source_track_ids": [
+        186
+      ],
+      "total_visible_time": 0.234,
+      "first_seen_time": 23.961,
+      "last_seen_time": 24.195,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 187,
+      "source_track_ids": [
+        187
+      ],
+      "total_visible_time": 3.915,
+      "first_seen_time": 24.128,
+      "last_seen_time": 28.043,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 188,
+      "source_track_ids": [
+        188
+      ],
+      "total_visible_time": 0.033,
+      "first_seen_time": 24.195,
+      "last_seen_time": 24.228,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 195,
+      "source_track_ids": [
+        195
+      ],
+      "total_visible_time": 0.837,
+      "first_seen_time": 25.5,
+      "last_seen_time": 26.336,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 198,
+      "source_track_ids": [
+        198
+      ],
+      "total_visible_time": 0.301,
+      "first_seen_time": 25.567,
+      "last_seen_time": 25.868,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 200,
+      "source_track_ids": [
+        200
+      ],
+      "total_visible_time": 0.335,
+      "first_seen_time": 25.634,
+      "last_seen_time": 25.968,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 203,
+      "source_track_ids": [
+        203
+      ],
+      "total_visible_time": 0.067,
+      "first_seen_time": 25.734,
+      "last_seen_time": 25.801,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 204,
+      "source_track_ids": [
+        204
+      ],
+      "total_visible_time": 3.045,
+      "first_seen_time": 25.801,
+      "last_seen_time": 28.846,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 223,
+      "source_track_ids": [
+        223,
+        225
+      ],
+      "total_visible_time": 1.506,
+      "first_seen_time": 26.47,
+      "last_seen_time": 27.976,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 236,
+      "source_track_ids": [
+        236
+      ],
+      "total_visible_time": 8.098,
+      "first_seen_time": 27.775,
+      "last_seen_time": 35.874,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 243,
+      "source_track_ids": [
+        243
+      ],
+      "total_visible_time": 2.744,
+      "first_seen_time": 28.679,
+      "last_seen_time": 31.423,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 244,
+      "source_track_ids": [
+        244
+      ],
+      "total_visible_time": 0.435,
+      "first_seen_time": 28.746,
+      "last_seen_time": 29.181,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 245,
+      "source_track_ids": [
+        245,
+        400
+      ],
+      "total_visible_time": 15.193,
+      "first_seen_time": 29.884,
+      "last_seen_time": 45.077,
+      "stationary_segments": [
+        {
+          "start_time": 30.553,
+          "end_time": 34.234,
+          "duration": 3.681
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 30.553,
+        "end_time": 34.234,
+        "duration": 3.681
+      }
+    },
+    {
+      "track_id": 252,
+      "source_track_ids": [
+        252
+      ],
+      "total_visible_time": 0.134,
+      "first_seen_time": 30.486,
+      "last_seen_time": 30.62,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 261,
+      "source_track_ids": [
+        261
+      ],
+      "total_visible_time": 0.368,
+      "first_seen_time": 32.025,
+      "last_seen_time": 32.394,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 262,
+      "source_track_ids": [
+        262
+      ],
+      "total_visible_time": 0.602,
+      "first_seen_time": 32.059,
+      "last_seen_time": 32.661,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 263,
+      "source_track_ids": [
+        263
+      ],
+      "total_visible_time": 0.167,
+      "first_seen_time": 32.092,
+      "last_seen_time": 32.26,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 268,
+      "source_track_ids": [
+        268
+      ],
+      "total_visible_time": 0.268,
+      "first_seen_time": 32.427,
+      "last_seen_time": 32.695,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 279,
+      "source_track_ids": [
+        279
+      ],
+      "total_visible_time": 1.539,
+      "first_seen_time": 34.201,
+      "last_seen_time": 35.74,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 282,
+      "source_track_ids": [
+        282
+      ],
+      "total_visible_time": 0.1,
+      "first_seen_time": 34.268,
+      "last_seen_time": 34.368,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 284,
+      "source_track_ids": [
+        284
+      ],
+      "total_visible_time": 0.167,
+      "first_seen_time": 34.401,
+      "last_seen_time": 34.569,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 286,
+      "source_track_ids": [
+        286
+      ],
+      "total_visible_time": 0.904,
+      "first_seen_time": 34.669,
+      "last_seen_time": 35.573,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 288,
+      "source_track_ids": [
+        288
+      ],
+      "total_visible_time": 0.837,
+      "first_seen_time": 34.803,
+      "last_seen_time": 35.64,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 290,
+      "source_track_ids": [
+        290
+      ],
+      "total_visible_time": 0.234,
+      "first_seen_time": 35.004,
+      "last_seen_time": 35.238,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 292,
+      "source_track_ids": [
+        292,
+        376
+      ],
+      "total_visible_time": 8.165,
+      "first_seen_time": 35.205,
+      "last_seen_time": 43.37,
+      "stationary_segments": [
+        {
+          "start_time": 37.413,
+          "end_time": 39.956,
+          "duration": 2.543
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 37.413,
+        "end_time": 39.956,
+        "duration": 2.543
+      }
+    },
+    {
+      "track_id": 297,
+      "source_track_ids": [
+        297,
+        344
+      ],
+      "total_visible_time": 8.232,
+      "first_seen_time": 35.573,
+      "last_seen_time": 43.805,
+      "stationary_segments": [
+        {
+          "start_time": 42.667,
+          "end_time": 43.805,
+          "duration": 1.138
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 42.667,
+        "end_time": 43.805,
+        "duration": 1.138
+      }
+    },
+    {
+      "track_id": 301,
+      "source_track_ids": [
+        301
+      ],
+      "total_visible_time": 1.171,
+      "first_seen_time": 36.376,
+      "last_seen_time": 37.547,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 308,
+      "source_track_ids": [
+        308,
+        318
+      ],
+      "total_visible_time": 1.406,
+      "first_seen_time": 36.677,
+      "last_seen_time": 38.082,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 310,
+      "source_track_ids": [
+        310
+      ],
+      "total_visible_time": 2.008,
+      "first_seen_time": 36.945,
+      "last_seen_time": 38.953,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 321,
+      "source_track_ids": [
+        321,
+        345,
+        348
+      ],
+      "total_visible_time": 3.112,
+      "first_seen_time": 38.518,
+      "last_seen_time": 41.63,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 322,
+      "source_track_ids": [
+        322,
+        325
+      ],
+      "total_visible_time": 6.626,
+      "first_seen_time": 38.618,
+      "last_seen_time": 45.244,
+      "stationary_segments": [
+        {
+          "start_time": 41.697,
+          "end_time": 45.244,
+          "duration": 3.547
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 41.697,
+        "end_time": 45.244,
+        "duration": 3.547
+      }
+    },
+    {
+      "track_id": 326,
+      "source_track_ids": [
+        326,
+        384
+      ],
+      "total_visible_time": 7.429,
+      "first_seen_time": 38.651,
+      "last_seen_time": 46.08,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 332,
+      "source_track_ids": [
+        332
+      ],
+      "total_visible_time": 4.317,
+      "first_seen_time": 39.019,
+      "last_seen_time": 43.336,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 366,
+      "source_track_ids": [
+        366
+      ],
+      "total_visible_time": 0.469,
+      "first_seen_time": 41.061,
+      "last_seen_time": 41.529,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 367,
+      "source_track_ids": [
+        367,
+        375
+      ],
+      "total_visible_time": 1.874,
+      "first_seen_time": 41.061,
+      "last_seen_time": 42.935,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 377,
+      "source_track_ids": [
+        377
+      ],
+      "total_visible_time": 1.205,
+      "first_seen_time": 42.199,
+      "last_seen_time": 43.403,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 378,
+      "source_track_ids": [
+        378
+      ],
+      "total_visible_time": 2.844,
+      "first_seen_time": 42.266,
+      "last_seen_time": 45.11,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 381,
+      "source_track_ids": [
+        380,
+        381
+      ],
+      "total_visible_time": 0.134,
+      "first_seen_time": 42.299,
+      "last_seen_time": 42.433,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 382,
+      "source_track_ids": [
+        382,
+        390
+      ],
+      "total_visible_time": 5.455,
+      "first_seen_time": 42.299,
+      "last_seen_time": 47.754,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 392,
+      "source_track_ids": [
+        392
+      ],
+      "total_visible_time": 2.978,
+      "first_seen_time": 43.236,
+      "last_seen_time": 46.214,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 394,
+      "source_track_ids": [
+        394
+      ],
+      "total_visible_time": 6.425,
+      "first_seen_time": 43.303,
+      "last_seen_time": 49.728,
+      "stationary_segments": [
+        {
+          "start_time": 45.311,
+          "end_time": 46.984,
+          "duration": 1.673
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 45.311,
+        "end_time": 46.984,
+        "duration": 1.673
+      }
+    },
+    {
+      "track_id": 395,
+      "source_track_ids": [
+        395,
+        446
+      ],
+      "total_visible_time": 5.087,
+      "first_seen_time": 43.638,
+      "last_seen_time": 48.724,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 397,
+      "source_track_ids": [
+        397,
+        447
+      ],
+      "total_visible_time": 3.179,
+      "first_seen_time": 43.905,
+      "last_seen_time": 47.084,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 405,
+      "source_track_ids": [
+        405,
+        444
+      ],
+      "total_visible_time": 3.313,
+      "first_seen_time": 44.842,
+      "last_seen_time": 48.155,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 412,
+      "source_track_ids": [
+        412,
+        489,
+        490
+      ],
+      "total_visible_time": 4.518,
+      "first_seen_time": 45.277,
+      "last_seen_time": 49.795,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 416,
+      "source_track_ids": [
+        416
+      ],
+      "total_visible_time": 0.0,
+      "first_seen_time": 45.512,
+      "last_seen_time": 45.512,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 418,
+      "source_track_ids": [
+        418
+      ],
+      "total_visible_time": 0.167,
+      "first_seen_time": 45.679,
+      "last_seen_time": 45.846,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 420,
+      "source_track_ids": [
+        420
+      ],
+      "total_visible_time": 0.067,
+      "first_seen_time": 45.712,
+      "last_seen_time": 45.779,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 424,
+      "source_track_ids": [
+        424
+      ],
+      "total_visible_time": 2.242,
+      "first_seen_time": 45.813,
+      "last_seen_time": 48.055,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 435,
+      "source_track_ids": [
+        435,
+        461,
+        471,
+        473
+      ],
+      "total_visible_time": 6.459,
+      "first_seen_time": 45.98,
+      "last_seen_time": 52.439,
+      "stationary_segments": [
+        {
+          "start_time": 49.494,
+          "end_time": 51.234,
+          "duration": 1.74
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 49.494,
+        "end_time": 51.234,
+        "duration": 1.74
+      }
+    },
+    {
+      "track_id": 437,
+      "source_track_ids": [
+        437,
+        592,
+        597
+      ],
+      "total_visible_time": 24.094,
+      "first_seen_time": 46.08,
+      "last_seen_time": 70.175,
+      "stationary_segments": [
+        {
+          "start_time": 50.23,
+          "end_time": 54.748,
+          "duration": 4.518
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 50.23,
+        "end_time": 54.748,
+        "duration": 4.518
+      }
+    },
+    {
+      "track_id": 445,
+      "source_track_ids": [
+        445
+      ],
+      "total_visible_time": 0.067,
+      "first_seen_time": 46.783,
+      "last_seen_time": 46.85,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 469,
+      "source_track_ids": [
+        469
+      ],
+      "total_visible_time": 0.134,
+      "first_seen_time": 47.787,
+      "last_seen_time": 47.921,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 478,
+      "source_track_ids": [
+        478
+      ],
+      "total_visible_time": 0.1,
+      "first_seen_time": 48.222,
+      "last_seen_time": 48.323,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 482,
+      "source_track_ids": [
+        482,
+        546
+      ],
+      "total_visible_time": 4.317,
+      "first_seen_time": 48.256,
+      "last_seen_time": 52.573,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 497,
+      "source_track_ids": [
+        497
+      ],
+      "total_visible_time": 0.402,
+      "first_seen_time": 48.858,
+      "last_seen_time": 49.26,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 498,
+      "source_track_ids": [
+        498,
+        529
+      ],
+      "total_visible_time": 2.911,
+      "first_seen_time": 48.858,
+      "last_seen_time": 51.769,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 510,
+      "source_track_ids": [
+        510
+      ],
+      "total_visible_time": 1.037,
+      "first_seen_time": 49.393,
+      "last_seen_time": 50.431,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 514,
+      "source_track_ids": [
+        514
+      ],
+      "total_visible_time": 1.673,
+      "first_seen_time": 49.561,
+      "last_seen_time": 51.234,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 519,
+      "source_track_ids": [
+        519
+      ],
+      "total_visible_time": 5.589,
+      "first_seen_time": 49.929,
+      "last_seen_time": 55.517,
+      "stationary_segments": [
+        {
+          "start_time": 52.204,
+          "end_time": 54.145,
+          "duration": 1.941
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 52.204,
+        "end_time": 54.145,
+        "duration": 1.941
+      }
+    },
+    {
+      "track_id": 520,
+      "source_track_ids": [
+        520
+      ],
+      "total_visible_time": 0.435,
+      "first_seen_time": 49.962,
+      "last_seen_time": 50.397,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 524,
+      "source_track_ids": [
+        524
+      ],
+      "total_visible_time": 5.287,
+      "first_seen_time": 50.565,
+      "last_seen_time": 55.852,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 526,
+      "source_track_ids": [
+        526
+      ],
+      "total_visible_time": 0.535,
+      "first_seen_time": 50.732,
+      "last_seen_time": 51.267,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 535,
+      "source_track_ids": [
+        535
+      ],
+      "total_visible_time": 0.134,
+      "first_seen_time": 51.535,
+      "last_seen_time": 51.669,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 545,
+      "source_track_ids": [
+        545,
+        556
+      ],
+      "total_visible_time": 5.99,
+      "first_seen_time": 52.004,
+      "last_seen_time": 57.994,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 549,
+      "source_track_ids": [
+        549
+      ],
+      "total_visible_time": 3.748,
+      "first_seen_time": 52.539,
+      "last_seen_time": 56.287,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 554,
+      "source_track_ids": [
+        554,
+        630,
+        631
+      ],
+      "total_visible_time": 12.382,
+      "first_seen_time": 52.941,
+      "last_seen_time": 65.323,
+      "stationary_segments": [
+        {
+          "start_time": 55.384,
+          "end_time": 57.358,
+          "duration": 1.974
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 55.384,
+        "end_time": 57.358,
+        "duration": 1.974
+      }
+    },
+    {
+      "track_id": 555,
+      "source_track_ids": [
+        555
+      ],
+      "total_visible_time": 0.268,
+      "first_seen_time": 53.108,
+      "last_seen_time": 53.376,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 559,
+      "source_track_ids": [
+        559,
+        591,
+        601
+      ],
+      "total_visible_time": 2.343,
+      "first_seen_time": 53.376,
+      "last_seen_time": 55.718,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 564,
+      "source_track_ids": [
+        564,
+        573
+      ],
+      "total_visible_time": 0.837,
+      "first_seen_time": 53.777,
+      "last_seen_time": 54.614,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 570,
+      "source_track_ids": [
+        570
+      ],
+      "total_visible_time": 0.033,
+      "first_seen_time": 53.945,
+      "last_seen_time": 53.978,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 580,
+      "source_track_ids": [
+        580,
+        620
+      ],
+      "total_visible_time": 1.707,
+      "first_seen_time": 54.982,
+      "last_seen_time": 56.689,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 590,
+      "source_track_ids": [
+        590
+      ],
+      "total_visible_time": 0.033,
+      "first_seen_time": 55.149,
+      "last_seen_time": 55.183,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 594,
+      "source_track_ids": [
+        594
+      ],
+      "total_visible_time": 0.167,
+      "first_seen_time": 55.25,
+      "last_seen_time": 55.417,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 608,
+      "source_track_ids": [
+        608,
+        637
+      ],
+      "total_visible_time": 3.28,
+      "first_seen_time": 55.986,
+      "last_seen_time": 59.265,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 610,
+      "source_track_ids": [
+        610
+      ],
+      "total_visible_time": 0.335,
+      "first_seen_time": 56.12,
+      "last_seen_time": 56.454,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 612,
+      "source_track_ids": [
+        612
+      ],
+      "total_visible_time": 0.301,
+      "first_seen_time": 56.321,
+      "last_seen_time": 56.622,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 615,
+      "source_track_ids": [
+        615,
+        640
+      ],
+      "total_visible_time": 3.38,
+      "first_seen_time": 56.454,
+      "last_seen_time": 59.834,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 619,
+      "source_track_ids": [
+        619
+      ],
+      "total_visible_time": 0.0,
+      "first_seen_time": 56.622,
+      "last_seen_time": 56.622,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 627,
+      "source_track_ids": [
+        627
+      ],
+      "total_visible_time": 0.0,
+      "first_seen_time": 57.258,
+      "last_seen_time": 57.258,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 628,
+      "source_track_ids": [
+        628,
+        634
+      ],
+      "total_visible_time": 9.504,
+      "first_seen_time": 57.425,
+      "last_seen_time": 66.929,
+      "stationary_segments": [
+        {
+          "start_time": 62.244,
+          "end_time": 63.817,
+          "duration": 1.573
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 62.244,
+        "end_time": 63.817,
+        "duration": 1.573
+      }
+    },
+    {
+      "track_id": 629,
+      "source_track_ids": [
+        629
+      ],
+      "total_visible_time": 9.604,
+      "first_seen_time": 57.458,
+      "last_seen_time": 67.063,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 636,
+      "source_track_ids": [
+        636,
+        642
+      ],
+      "total_visible_time": 2.577,
+      "first_seen_time": 59.165,
+      "last_seen_time": 61.742,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 643,
+      "source_track_ids": [
+        643
+      ],
+      "total_visible_time": 4.551,
+      "first_seen_time": 60.671,
+      "last_seen_time": 65.222,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 644,
+      "source_track_ids": [
+        644
+      ],
+      "total_visible_time": 0.201,
+      "first_seen_time": 60.704,
+      "last_seen_time": 60.905,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 645,
+      "source_track_ids": [
+        645
+      ],
+      "total_visible_time": 0.167,
+      "first_seen_time": 60.738,
+      "last_seen_time": 60.905,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 649,
+      "source_track_ids": [
+        649
+      ],
+      "total_visible_time": 1.472,
+      "first_seen_time": 61.139,
+      "last_seen_time": 62.612,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 651,
+      "source_track_ids": [
+        651,
+        687
+      ],
+      "total_visible_time": 10.24,
+      "first_seen_time": 61.474,
+      "last_seen_time": 71.714,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 652,
+      "source_track_ids": [
+        652,
+        711
+      ],
+      "total_visible_time": 4.986,
+      "first_seen_time": 61.474,
+      "last_seen_time": 66.46,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 665,
+      "source_track_ids": [
+        665,
+        689
+      ],
+      "total_visible_time": 1.506,
+      "first_seen_time": 62.578,
+      "last_seen_time": 64.084,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 668,
+      "source_track_ids": [
+        668
+      ],
+      "total_visible_time": 0.167,
+      "first_seen_time": 62.679,
+      "last_seen_time": 62.846,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 670,
+      "source_track_ids": [
+        670
+      ],
+      "total_visible_time": 1.171,
+      "first_seen_time": 62.712,
+      "last_seen_time": 63.884,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 673,
+      "source_track_ids": [
+        673
+      ],
+      "total_visible_time": 0.1,
+      "first_seen_time": 62.779,
+      "last_seen_time": 62.88,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 691,
+      "source_track_ids": [
+        691
+      ],
+      "total_visible_time": 7.128,
+      "first_seen_time": 64.051,
+      "last_seen_time": 71.179,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 696,
+      "source_track_ids": [
+        696,
+        734,
+        738,
+        740
+      ],
+      "total_visible_time": 9.47,
+      "first_seen_time": 64.386,
+      "last_seen_time": 73.856,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 697,
+      "source_track_ids": [
+        697
+      ],
+      "total_visible_time": 0.067,
+      "first_seen_time": 64.386,
+      "last_seen_time": 64.452,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 713,
+      "source_track_ids": [
+        713,
+        721
+      ],
+      "total_visible_time": 0.803,
+      "first_seen_time": 65.724,
+      "last_seen_time": 66.527,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 717,
+      "source_track_ids": [
+        717
+      ],
+      "total_visible_time": 4.317,
+      "first_seen_time": 65.958,
+      "last_seen_time": 70.275,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 718,
+      "source_track_ids": [
+        718
+      ],
+      "total_visible_time": 0.1,
+      "first_seen_time": 66.092,
+      "last_seen_time": 66.193,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 719,
+      "source_track_ids": [
+        719,
+        730
+      ],
+      "total_visible_time": 5.254,
+      "first_seen_time": 66.126,
+      "last_seen_time": 71.38,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 723,
+      "source_track_ids": [
+        723
+      ],
+      "total_visible_time": 0.77,
+      "first_seen_time": 66.46,
+      "last_seen_time": 67.23,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 727,
+      "source_track_ids": [
+        727
+      ],
+      "total_visible_time": 0.0,
+      "first_seen_time": 66.862,
+      "last_seen_time": 66.862,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 736,
+      "source_track_ids": [
+        736
+      ],
+      "total_visible_time": 1.238,
+      "first_seen_time": 67.598,
+      "last_seen_time": 68.836,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 737,
+      "source_track_ids": [
+        737
+      ],
+      "total_visible_time": 2.61,
+      "first_seen_time": 67.598,
+      "last_seen_time": 70.208,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 747,
+      "source_track_ids": [
+        747,
+        751
+      ],
+      "total_visible_time": 0.87,
+      "first_seen_time": 68.368,
+      "last_seen_time": 69.238,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 748,
+      "source_track_ids": [
+        748,
+        800
+      ],
+      "total_visible_time": 11.177,
+      "first_seen_time": 68.702,
+      "last_seen_time": 79.88,
+      "stationary_segments": [
+        {
+          "start_time": 75.663,
+          "end_time": 76.7,
+          "duration": 1.037
+        },
+        {
+          "start_time": 77.905,
+          "end_time": 79.88,
+          "duration": 1.974
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 77.905,
+        "end_time": 79.88,
+        "duration": 1.974
+      }
+    },
+    {
+      "track_id": 755,
+      "source_track_ids": [
+        755,
+        833,
+        844,
+        850,
+        851
+      ],
+      "total_visible_time": 6.659,
+      "first_seen_time": 69.104,
+      "last_seen_time": 75.763,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 764,
+      "source_track_ids": [
+        764
+      ],
+      "total_visible_time": 5.689,
+      "first_seen_time": 69.506,
+      "last_seen_time": 75.195,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 766,
+      "source_track_ids": [
+        766,
+        820
+      ],
+      "total_visible_time": 5.756,
+      "first_seen_time": 69.773,
+      "last_seen_time": 75.529,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 775,
+      "source_track_ids": [
+        775,
+        789
+      ],
+      "total_visible_time": 2.242,
+      "first_seen_time": 70.911,
+      "last_seen_time": 73.153,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 779,
+      "source_track_ids": [
+        779
+      ],
+      "total_visible_time": 0.1,
+      "first_seen_time": 71.179,
+      "last_seen_time": 71.279,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 783,
+      "source_track_ids": [
+        783
+      ],
+      "total_visible_time": 0.636,
+      "first_seen_time": 71.38,
+      "last_seen_time": 72.015,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 790,
+      "source_track_ids": [
+        790
+      ],
+      "total_visible_time": 0.268,
+      "first_seen_time": 72.383,
+      "last_seen_time": 72.651,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 797,
+      "source_track_ids": [
+        797
+      ],
+      "total_visible_time": 4.116,
+      "first_seen_time": 72.718,
+      "last_seen_time": 76.834,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 801,
+      "source_track_ids": [
+        801
+      ],
+      "total_visible_time": 1.841,
+      "first_seen_time": 72.986,
+      "last_seen_time": 74.826,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 807,
+      "source_track_ids": [
+        806,
+        807
+      ],
+      "total_visible_time": 0.402,
+      "first_seen_time": 73.588,
+      "last_seen_time": 73.99,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 813,
+      "source_track_ids": [
+        813,
+        831
+      ],
+      "total_visible_time": 1.606,
+      "first_seen_time": 73.956,
+      "last_seen_time": 75.563,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 816,
+      "source_track_ids": [
+        816
+      ],
+      "total_visible_time": 0.0,
+      "first_seen_time": 73.99,
+      "last_seen_time": 73.99,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 819,
+      "source_track_ids": [
+        819
+      ],
+      "total_visible_time": 2.175,
+      "first_seen_time": 74.492,
+      "last_seen_time": 76.667,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 825,
+      "source_track_ids": [
+        825,
+        959
+      ],
+      "total_visible_time": 8.031,
+      "first_seen_time": 74.726,
+      "last_seen_time": 82.757,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 826,
+      "source_track_ids": [
+        826,
+        949
+      ],
+      "total_visible_time": 10.474,
+      "first_seen_time": 74.759,
+      "last_seen_time": 85.234,
+      "stationary_segments": [
+        {
+          "start_time": 83.126,
+          "end_time": 85.234,
+          "duration": 2.108
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 83.126,
+        "end_time": 85.234,
+        "duration": 2.108
+      }
+    },
+    {
+      "track_id": 832,
+      "source_track_ids": [
+        832
+      ],
+      "total_visible_time": 7.094,
+      "first_seen_time": 75.094,
+      "last_seen_time": 82.189,
+      "stationary_segments": [
+        {
+          "start_time": 80.582,
+          "end_time": 82.189,
+          "duration": 1.606
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 80.582,
+        "end_time": 82.189,
+        "duration": 1.606
+      }
+    },
+    {
+      "track_id": 834,
+      "source_track_ids": [
+        834
+      ],
+      "total_visible_time": 0.134,
+      "first_seen_time": 75.228,
+      "last_seen_time": 75.362,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 856,
+      "source_track_ids": [
+        856
+      ],
+      "total_visible_time": 0.067,
+      "first_seen_time": 75.529,
+      "last_seen_time": 75.596,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 858,
+      "source_track_ids": [
+        858
+      ],
+      "total_visible_time": 1.037,
+      "first_seen_time": 75.529,
+      "last_seen_time": 76.567,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 865,
+      "source_track_ids": [
+        865
+      ],
+      "total_visible_time": 0.268,
+      "first_seen_time": 76.031,
+      "last_seen_time": 76.299,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 866,
+      "source_track_ids": [
+        866,
+        874
+      ],
+      "total_visible_time": 0.837,
+      "first_seen_time": 76.031,
+      "last_seen_time": 76.868,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 871,
+      "source_track_ids": [
+        871
+      ],
+      "total_visible_time": 8.734,
+      "first_seen_time": 76.5,
+      "last_seen_time": 85.234,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 878,
+      "source_track_ids": [
+        878,
+        988
+      ],
+      "total_visible_time": 8.333,
+      "first_seen_time": 76.901,
+      "last_seen_time": 85.234,
+      "stationary_segments": [
+        {
+          "start_time": 79.043,
+          "end_time": 83.996,
+          "duration": 4.953
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 79.043,
+        "end_time": 83.996,
+        "duration": 4.953
+      }
+    },
+    {
+      "track_id": 889,
+      "source_track_ids": [
+        889
+      ],
+      "total_visible_time": 3.179,
+      "first_seen_time": 77.637,
+      "last_seen_time": 80.817,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 911,
+      "source_track_ids": [
+        911
+      ],
+      "total_visible_time": 0.368,
+      "first_seen_time": 79.177,
+      "last_seen_time": 79.545,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 921,
+      "source_track_ids": [
+        921
+      ],
+      "total_visible_time": 0.201,
+      "first_seen_time": 79.444,
+      "last_seen_time": 79.645,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 924,
+      "source_track_ids": [
+        924
+      ],
+      "total_visible_time": 5.722,
+      "first_seen_time": 79.511,
+      "last_seen_time": 85.234,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 928,
+      "source_track_ids": [
+        928
+      ],
+      "total_visible_time": 1.004,
+      "first_seen_time": 79.679,
+      "last_seen_time": 80.683,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 937,
+      "source_track_ids": [
+        937
+      ],
+      "total_visible_time": 4.417,
+      "first_seen_time": 80.817,
+      "last_seen_time": 85.234,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 947,
+      "source_track_ids": [
+        947
+      ],
+      "total_visible_time": 2.644,
+      "first_seen_time": 81.252,
+      "last_seen_time": 83.895,
+      "stationary_segments": [
+        {
+          "start_time": 81.921,
+          "end_time": 83.895,
+          "duration": 1.974
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 81.921,
+        "end_time": 83.895,
+        "duration": 1.974
+      }
+    },
+    {
+      "track_id": 948,
+      "source_track_ids": [
+        948,
+        965
+      ],
+      "total_visible_time": 3.748,
+      "first_seen_time": 81.486,
+      "last_seen_time": 85.234,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 956,
+      "source_track_ids": [
+        956
+      ],
+      "total_visible_time": 3.48,
+      "first_seen_time": 81.754,
+      "last_seen_time": 85.234,
+      "stationary_segments": [
+        {
+          "start_time": 83.728,
+          "end_time": 85.234,
+          "duration": 1.506
+        }
+      ],
+      "longest_stationary_segment": {
+        "start_time": 83.728,
+        "end_time": 85.234,
+        "duration": 1.506
+      }
+    },
+    {
+      "track_id": 961,
+      "source_track_ids": [
+        961
+      ],
+      "total_visible_time": 0.0,
+      "first_seen_time": 83.126,
+      "last_seen_time": 83.126,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 963,
+      "source_track_ids": [
+        963
+      ],
+      "total_visible_time": 0.067,
+      "first_seen_time": 83.126,
+      "last_seen_time": 83.192,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 967,
+      "source_track_ids": [
+        967
+      ],
+      "total_visible_time": 0.301,
+      "first_seen_time": 83.326,
+      "last_seen_time": 83.628,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 978,
+      "source_track_ids": [
+        978,
+        994
+      ],
+      "total_visible_time": 1.004,
+      "first_seen_time": 84.029,
+      "last_seen_time": 85.033,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 981,
+      "source_track_ids": [
+        981
+      ],
+      "total_visible_time": 0.636,
+      "first_seen_time": 84.029,
+      "last_seen_time": 84.665,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 983,
+      "source_track_ids": [
+        983
+      ],
+      "total_visible_time": 0.402,
+      "first_seen_time": 84.263,
+      "last_seen_time": 84.665,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 985,
+      "source_track_ids": [
+        985
+      ],
+      "total_visible_time": 0.234,
+      "first_seen_time": 84.397,
+      "last_seen_time": 84.631,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    },
+    {
+      "track_id": 992,
+      "source_track_ids": [
+        992
+      ],
+      "total_visible_time": 0.402,
+      "first_seen_time": 84.832,
+      "last_seen_time": 85.234,
+      "stationary_segments": [],
+      "longest_stationary_segment": null
+    }
+  ],
+  "outputs": {
+    "summary_json": "results\\summary.json",
+    "tracks_csv": "results\\tracks.csv",
+    "annotated_video": "results\\annotated_entrance.mp4"
+  }
+}

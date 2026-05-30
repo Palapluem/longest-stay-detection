@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.pt
+.venv/
+.ipynb_checkpoints/
+runs/
+*.log
+results/*.log
+results/preview_*.jpg
+fraud-transaction-detection-main/
+5-domains-hackathon-house-recognition.ipynb
