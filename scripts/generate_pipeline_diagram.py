@@ -104,7 +104,10 @@ def box_text(
     x1, y1, x2, y2 = xy
     rounded_box(draw, xy, WHITE, accent)
     draw.rounded_rectangle((x1, y1, x2, y1 + 18), radius=8, fill=accent)
-    draw.text((x1 + 22, y1 + 35), title, fill=INK, font=BOX_TITLE)
+    title_font = BOX_TITLE
+    while draw.textlength(title, font=title_font) > (x2 - x1 - 44) and getattr(title_font, "size", 18) > 20:
+        title_font = load_font(title_font.size - 1, bold=True)
+    draw.text((x1 + 22, y1 + 35), title, fill=INK, font=title_font)
     cursor = y1 + 82
     for line in lines:
         for wrapped in wrap(line, width=28):
@@ -185,14 +188,9 @@ def main() -> None:
     arrow(draw, (1210, 780), (1395, 485), PURPLE, dashed=True)
 
     draw.text((1370, 650), "Core stationary metric", fill=INK, font=SMALL_BOLD)
-    draw.text(
-        (1370, 681),
-        "distance(current_smoothed_foot, old_smoothed_foot)",
-        fill=MUTED,
-        font=SMALL,
-    )
-    draw.line((1370, 710, 1900, 710), fill=MUTED, width=2)
-    draw.text((1370, 727), "median_bbox_height", fill=MUTED, font=SMALL)
+    draw.text((1370, 681), "distance(smoothed_foot_now, smoothed_foot_old)", fill=MUTED, font=SMALL)
+    draw.line((1370, 710, 1880, 710), fill=MUTED, width=2)
+    draw.text((1370, 727), "median bbox height", fill=MUTED, font=SMALL)
     draw.text((1370, 775), "Stationary when normalized movement stays low", fill=ORANGE, font=SMALL_BOLD)
 
     draw.text((78, 1015), "Design principle:", fill=INK, font=SMALL_BOLD)
