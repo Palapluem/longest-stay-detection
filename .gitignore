@@ -8,6 +8,3 @@ outputs/
 *.log
 results/*.log
 results/preview_*.jpg
-
-# Local presentation used for the recorded walkthrough.
-Longest Stay Detection_Presentation_Wisit Suwannao.pdf
