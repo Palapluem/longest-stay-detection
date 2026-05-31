@@ -8,6 +8,6 @@ outputs/
 *.log
 results/*.log
 results/preview_*.jpg
-fraud-transaction-detection-main/
-5-domains-hackathon-house-recognition.ipynb
-Longest Stay Detection - Wisit Suwannao.pdf
+
+# Local presentation used for the recorded walkthrough.
+Longest Stay Detection_Presentation_Wisit Suwannao.pdf

@@ -76,12 +76,8 @@ longest-stay-detection/
 │   ├── annotated_entrance.mp4              # Annotated output video
 │   ├── summary.json                        # Structured final result
 │   └── tracks.csv                          # Per-track stationary segment table
-├── scripts/
-│   └── generate_pipeline_diagram.py        # Rebuild the pipeline diagram
 ├── entrance.mov                            # Input video
 ├── IDEA.md                                 # Short idea description
-├── PRESENTATION_GUIDE_TH.md                # Thai slide-by-slide recording guide
-├── longest-stay-detection-info.txt         # Original coding-test brief
 ├── main.py                                 # CLI entrypoint
 ├── references.md                           # Research and documentation references
 ├── requirements.txt                        # Python dependencies
@@ -102,9 +98,8 @@ Recommended files to keep in the submitted repository:
 - `requirements.txt`
 - `README.md`
 - `IDEA.md`
-- `PRESENTATION_GUIDE_TH.md`
 - `references.md`
-- `longest-stay-detection-info.txt`
+- `entrance.mov` through Git LFS
 - `results/summary.json`
 - `results/tracks.csv`
 - `results/annotated_entrance.mp4` through Git LFS, or an external Drive/YouTube link to this video
@@ -333,7 +328,6 @@ High-value next steps:
 - **[Method Design](2_Method_Design/README.md)** - Algorithm details, movement measurement, and pipeline diagram
 - **[Video Pipeline Documentation](3_Video_Pipeline/README.md)** - CLI usage and implementation notes
 - **[Evaluation and Results](4_Evaluation_and_Results/README.md)** - Final result, limitations, and improvement plan
-- **[Presentation Recording Guide](PRESENTATION_GUIDE_TH.md)** - Thai slide outline and recording script
 - **[References](references.md)** - Documentation, papers, and project citations
 
 ---
