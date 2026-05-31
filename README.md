@@ -28,7 +28,7 @@ The repository includes both:
   <img width="100%" alt="Longest Stay Detection pipeline" src="assets/longest_stay_pipeline.png" />
 </div>
 
-The pipeline reads video metadata from OpenCV, detects people with YOLO, preserves identity with multi-object tracking, measures stationary evidence per track, and exports the winning segment with annotated artifacts.
+The pipeline reads video metadata from OpenCV, detects people with YOLO, preserves identity with multi-object tracking, measures stationary evidence per track, and exports structured results plus a local annotated artifact.
 
 ## Final Result
 
@@ -50,10 +50,6 @@ frame_count: 2556
 duration_sec: 85.535
 ```
 
-<div align="center">
-  <img width="100%" alt="Winner track 161 at 40 seconds" src="assets/winner_track_161_at_40s.jpg" />
-</div>
-
 ## Project Structure
 
 ```text
@@ -70,13 +66,10 @@ longest-stay-detection/
 ├── 4_Evaluation_and_Results/
 │   └── README.md                           # Result, assessment, and improvement plan
 ├── assets/
-│   ├── longest_stay_pipeline.png           # Pipeline architecture diagram
-│   └── winner_track_161_at_40s.jpg         # Annotated result preview
+│   └── longest_stay_pipeline.png           # Pipeline architecture diagram
 ├── results/
-│   ├── annotated_entrance.mp4              # Annotated output video
 │   ├── summary.json                        # Structured final result
 │   └── tracks.csv                          # Per-track stationary segment table
-├── entrance.mov                            # Input video
 ├── IDEA.md                                 # Short idea description
 ├── main.py                                 # CLI entrypoint
 ├── references.md                           # Research and documentation references
@@ -99,10 +92,8 @@ Recommended files to keep in the submitted repository:
 - `README.md`
 - `IDEA.md`
 - `references.md`
-- `entrance.mov` through Git LFS
 - `results/summary.json`
 - `results/tracks.csv`
-- `results/annotated_entrance.mp4` through Git LFS, or an external Drive/YouTube link to this video
 
 Local/reference files that should not be part of the final submission:
 
@@ -110,9 +101,11 @@ Local/reference files that should not be part of the final submission:
 - old unrelated notebooks such as `5-domains-hackathon-house-recognition.ipynb`
 - `__pycache__/`
 - `*.pt` YOLO weight files downloaded at runtime
+- original and derived video files
+- preview frames derived from the dataset
 - temporary logs
 
-Note: `results/annotated_entrance.mp4` is a large generated artifact and is tracked with Git LFS.
+Note: the original dataset and derived media artifacts are intentionally excluded from this public repository. They must remain local-only.
 
 ## Getting Started
 
@@ -274,7 +267,7 @@ Flat table of each track and stationary segment.
 
 ### `results/annotated_entrance.mp4`
 
-Annotated video with:
+Generated locally and intentionally excluded from this public repository. The annotated video contains:
 
 - bounding boxes
 - track ids

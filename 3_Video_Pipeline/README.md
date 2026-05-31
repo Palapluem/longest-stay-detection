@@ -23,7 +23,7 @@ The root `main.py` is a small wrapper around:
 - Tracks people with BoT-SORT by default, with `bytetrack.yaml` available through CLI.
 - Measures stationary behavior from EMA-smoothed foot-point displacement normalized by bbox height.
 - Uses bbox IoU and hysteresis to reduce jitter-driven segment breaks.
-- Saves annotated video, JSON summary, and CSV segment table.
+- Saves a local annotated video plus JSON and CSV summaries. Derived media must not be published in this repository.
 
 ## Important CLI Arguments
 

@@ -8,3 +8,12 @@ outputs/
 *.log
 results/*.log
 results/preview_*.jpg
+
+# Dataset and derived media must remain local-only.
+*.[mM][oO][vV]
+*.[mM][pP]4
+*.[aA][vV][iI]
+*.[mM][kK][vV]
+*.[wW][eE][bB][mM]
+*.[mM]4[vV]
+assets/winner_track_*.jpg

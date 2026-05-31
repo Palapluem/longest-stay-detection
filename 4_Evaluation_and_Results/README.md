@@ -26,7 +26,7 @@ end_time: 74.793 seconds
 
 Output files:
 
-- `results/annotated_entrance.mp4`
+- `results/annotated_entrance.mp4` (generated locally and intentionally excluded from this public repository)
 - `results/summary.json`
 - `results/tracks.csv`
 
@@ -51,7 +51,7 @@ High value:
 
 - Run a second result with `yolo11s.pt` and `imgsz=960` for better detection quality, then compare winner stability against the current fast `yolo11n.pt` result.
 - Add a short qualitative review table with 5-8 timestamps showing whether the winner track is visually stationary.
-- Export a few preview frames around the winning interval for quick reviewer inspection.
+- Review private/local preview frames around the winning interval without publishing them.
 
 Medium value:
 

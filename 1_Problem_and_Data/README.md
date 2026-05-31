@@ -13,7 +13,7 @@ The answer must include:
 
 ## Dataset
 
-- Input video: `entrance.mov`
+- Local input video: `entrance.mov` (intentionally not distributed in this public repository)
 - Video metadata is read with OpenCV at runtime.
 - The solution does not hard-code FPS, frame count, or video duration.
 
