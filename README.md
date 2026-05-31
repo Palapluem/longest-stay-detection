@@ -326,7 +326,7 @@ High-value next steps:
 
 ---
 
-## 📝 Additional Resources
+## Additional Resources
 
 - **[Full Notebook Walkthrough](0_Longest_Stay_Detection_Report.ipynb)** - Complete runnable Thai walkthrough with code cells and executed outputs
 - **[Problem and Data Understanding](1_Problem_and_Data/README.md)** - Task definition, input metadata, and stationary interpretation
@@ -338,19 +338,19 @@ High-value next steps:
 
 ---
 
-## 📄 License
+## License
 
 This project is part of a Connected Tech Internship 2026 take-home assignment. Please contact the repository owner for usage permissions.
 
 ---
 
-## 👤 Author
+## Author
 
 - **Wisit Suwannao** - [GitHub Profile](https://github.com/Palapluem)
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Connected Tech for the internship opportunity and take-home test
 - Ultralytics for the YOLO detection and tracking framework
