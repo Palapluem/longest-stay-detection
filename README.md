@@ -324,6 +324,37 @@ High-value next steps:
 - Add a short visual validation table for timestamps around the winning segment.
 - Export a debug CSV for the winner track with `norm_disp`, IoU, and status per frame.
 
-## References
+---
 
-See `references.md`.
+## 📝 Additional Resources
+
+- **[Full Notebook Walkthrough](0_Longest_Stay_Detection_Report.ipynb)** - Complete runnable Thai walkthrough with code cells and executed outputs
+- **[Problem and Data Understanding](1_Problem_and_Data/README.md)** - Task definition, input metadata, and stationary interpretation
+- **[Method Design](2_Method_Design/README.md)** - Algorithm details, movement measurement, and pipeline diagram
+- **[Video Pipeline Documentation](3_Video_Pipeline/README.md)** - CLI usage and implementation notes
+- **[Evaluation and Results](4_Evaluation_and_Results/README.md)** - Final result, limitations, and improvement plan
+- **[Presentation Recording Guide](PRESENTATION_GUIDE_TH.md)** - Thai slide outline and recording script
+- **[References](references.md)** - Documentation, papers, and project citations
+
+---
+
+## 📄 License
+
+This project is part of a Connected Tech Internship 2026 take-home assignment. Please contact the repository owner for usage permissions.
+
+---
+
+## 👤 Author
+
+- **Wisit Suwannao** - [GitHub Profile](https://github.com/Palapluem)
+
+---
+
+## 🙏 Acknowledgments
+
+- Connected Tech for the internship opportunity and take-home test
+- Ultralytics for the YOLO detection and tracking framework
+- OpenCV contributors for video processing tools
+- The open-source community for supporting libraries and research resources
+
+**Last Updated:** May 31, 2026
