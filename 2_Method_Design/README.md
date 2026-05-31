@@ -2,6 +2,8 @@
 
 ## Pipeline
 
+![Longest Stay Detection pipeline](../assets/longest_stay_pipeline.png)
+
 ```mermaid
 flowchart LR
     A[entrance.mov] --> B[OpenCV metadata]

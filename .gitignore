@@ -4,8 +4,10 @@ __pycache__/
 .venv/
 .ipynb_checkpoints/
 runs/
+outputs/
 *.log
 results/*.log
 results/preview_*.jpg
 fraud-transaction-detection-main/
 5-domains-hackathon-house-recognition.ipynb
+Longest Stay Detection - Wisit Suwannao.pdf

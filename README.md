@@ -22,6 +22,14 @@ The repository includes both:
 - `main.py` for command-line execution.
 - `0_Longest_Stay_Detection_Report.ipynb` for a full runnable Thai walkthrough with code cells and executed outputs.
 
+## Pipeline Architecture
+
+<div align="center">
+  <img width="100%" alt="Longest Stay Detection pipeline" src="assets/longest_stay_pipeline.png" />
+</div>
+
+The pipeline reads video metadata from OpenCV, detects people with YOLO, preserves identity with multi-object tracking, measures stationary evidence per track, and exports the winning segment with annotated artifacts.
+
 ## Final Result
 
 The generated run in this workspace used `yolo11n.pt` with `imgsz=640` for speed.
@@ -42,6 +50,10 @@ frame_count: 2556
 duration_sec: 85.535
 ```
 
+<div align="center">
+  <img width="100%" alt="Winner track 161 at 40 seconds" src="assets/winner_track_161_at_40s.jpg" />
+</div>
+
 ## Project Structure
 
 ```text
@@ -57,12 +69,18 @@ longest-stay-detection/
 │       └── longest_stay_detection.py       # Main implementation
 ├── 4_Evaluation_and_Results/
 │   └── README.md                           # Result, assessment, and improvement plan
+├── assets/
+│   ├── longest_stay_pipeline.png           # Pipeline architecture diagram
+│   └── winner_track_161_at_40s.jpg         # Annotated result preview
 ├── results/
 │   ├── annotated_entrance.mp4              # Annotated output video
 │   ├── summary.json                        # Structured final result
 │   └── tracks.csv                          # Per-track stationary segment table
+├── scripts/
+│   └── generate_pipeline_diagram.py        # Rebuild the pipeline diagram
 ├── entrance.mov                            # Input video
 ├── IDEA.md                                 # Short idea description
+├── PRESENTATION_GUIDE_TH.md                # Thai slide-by-slide recording guide
 ├── longest-stay-detection-info.txt         # Original coding-test brief
 ├── main.py                                 # CLI entrypoint
 ├── references.md                           # Research and documentation references
@@ -79,10 +97,12 @@ Recommended files to keep in the submitted repository:
 - `2_Method_Design/`
 - `3_Video_Pipeline/`
 - `4_Evaluation_and_Results/`
+- `assets/`
 - `main.py`
 - `requirements.txt`
 - `README.md`
 - `IDEA.md`
+- `PRESENTATION_GUIDE_TH.md`
 - `references.md`
 - `longest-stay-detection-info.txt`
 - `results/summary.json`
